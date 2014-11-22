@@ -22,7 +22,7 @@ namespace ConsoleApplication1
             dt.Rows.Add("Prashant", "Mohite");
             ds.Tables.Add(dt);
             var dt1 = new DataTable();
-
+            var a = 0;
 
 
             dt1 = ds.Tables[0];
